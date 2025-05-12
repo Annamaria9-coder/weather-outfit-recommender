@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Outfit Recommender</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="weather-card">
+            <div class="time-selector">
+                <button class="time-btn active">Now</button>
+                <button class="time-btn">5PM</button>
+                <button class="time-btn">6PM</button>
+            </div>
+            
+            <div class="weather-info">
+                <div class="temperature-display">
+                    <h1 id="temperature">--°</h1>
+                    <span class="unit">C</span>
+                </div>
+                <p id="weather-description">Loading weather...</p>
+            </div>
+            
+            <!-- Make sure your outfit recommendation section looks like this -->
+            <div class="outfit-recommendation">
+                <h2>Today's Outfit</h2>
+                <p id="outfit-suggestion">Getting your personalized outfit suggestion...</p>
+            </div>
+            
+            <div class="location-bar">
+                <div class="location-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                </div>
+                <p id="location">Detecting location...</p>
+                <div class="dropdown-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </div>
+            </div>
+            
+            <!-- Hidden element for date -->
+            <div class="date-display" style="display: none;">
+                <p id="current-date">Loading date...</p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
