@@ -42,7 +42,8 @@ Here’s what’s running under the hood:
 Main screen showing temperature and outfit recommendation:
 
 ![Weather App Screenshot](./screenshot.png)  
-*Make sure to replace this image with an actual screenshot of your app.*
+<img width="758" alt="image" src="https://github.com/user-attachments/assets/28c9dba7-9968-454c-beb3-3245d45ac39e" />
+
 
 ---
 
