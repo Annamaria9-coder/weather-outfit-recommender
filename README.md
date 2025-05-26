@@ -1,6 +1,6 @@
 # 👕 Weather Outfit Advisor
 
-I made this project because I often find it difficult waking up in the morning and wearing the wrong outfit. Like wearing a sweater and then realizing it’s actually hot outside. Or wearing light clothing and stepping out into cold wind and cloudy skies. So I thought — you know what, let me make something that just tells me what to wear.
+I made this project because I often find it difficult waking up in the morning and wearing the wrong outfit. Like wearing a sweater and then realizing it’s actually hot outside. Or wearing light clothing and stepping out into cold wind and cloudy skies. So I thought yeah you know what, let me make something that just tells me what to wear.
 
 Check it out here:
 https://weather-outfit-recommender-tau.vercel.app/
